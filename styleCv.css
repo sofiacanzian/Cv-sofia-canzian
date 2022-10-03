@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+html{height: 100%;}
+*{margin: 0;
+        box-sizing:border-box;
+        padding: 0;
+        box-sizing: border-box;
+        list-style:none;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(238, 140, 157);
+
+}
+
+body
+{
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+header{
+    position: absolute;
+    background-color: white;
+    height: 147px;
+    width: 100%;
+    bottom: 500px;
+    
+}
+    
+.home{
+        display: flex;
+        background-color: #DFECEE;
+        border-radius: 80%;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        position: relative;
+        left: 30px;
+        top: 20px;
+        
+    }
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background:#fff;
+    margin: 50px;
+    display: grid;
+    box-shadow: 0 35px 55px rgb(231, 131, 148);
+}
+
+.container .left_side
+{
+   position:  relative;
+   background: pink;
+   padding: 40px;
+}
+
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+
+}
+
+.profileText .img
+
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    bottom: 50%;
+
+}
+
+.profileText .img img 
+{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    bottom: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profileText h2
+
+{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profileText h2 span
+
+{
+   font-size: 300; 
+   font-weight: 300;
+}
+
+.title
+{
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+main{
+    position: relative;
+    width: px;
+    height: 100px;
+
+}
+
+a{
+    display: block;
+    width: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    background-color: rgb(252, 113, 136);
+    border-radius: 10px;
+    padding: 10px 60px;
+    margin: 50px 50px;
+    color: #DFECEE;
+    justify-content: center;
+    padding-right: 14%;
+
+}
+
+
